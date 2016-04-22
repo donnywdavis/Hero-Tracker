@@ -29,22 +29,21 @@ After completing this assignment, you should…
 * [x] Remove the ViewController.(h/m) files from the project
 * [x] Add a new Table View Controller subclass called HeroTableViewController
 * [x] Add a new View Controller subclass called HeroDetailViewController
-* [ ] Add a new swift class called "Hero"
-* [ ] Add the heroes.json file to the project
+* [x] Add a new swift class called "Hero"
+* [x] Add the heroes.json file to the project
 * In HeroTableViewController:
-    * [ ] Create a property to store custom Hero models
-    * [ ] Set the title to "S.H.I.E.L.D. Hero Tracker"
-    * [ ] Call the private method loadHeroes()
-    * [ ] Create a private method called loadHeroes()
-    * [ ] Load the JSON file into a local array
-    * [ ] Create a for loop that iterates over each dictionary in the array and creates a hero object. Add each hero to the heroes array property
-    * [ ] Sort the heroes array in place to alphabetize the list by hero name
-    * [ ] Implement the three tableview datasource methods to get each hero in the heroes array to display in the table with the name in the cell's left label and their homeworld in the cell's right label.
+    * [x] Create a property to store custom Hero models
+    * [x] Set the title to "S.H.I.E.L.D. Hero Tracker"
+    * [x] Call the private method loadHeroes()
+    * [x] Create a private method called loadHeroes()
+    * [x] Load the JSON file into a local array
+    * [x] Create a for loop that iterates over each dictionary in the array and creates a hero object. Add each hero to the heroes array property
+    * [x] Sort the heroes array in place to alphabetize the list by hero name
+    * [x] Implement the three tableview datasource methods to get each hero in the heroes array to display in the table with the name in the cell's left label and their homeworld in the cell's right label.
     * [ ] Implement the didSelectRowAtIndexPath tableview delegate method to transition to the detail view. Be sure to send the appropriate hero object to the detail view controller before you inititate the transition.
 * In HeroDetailViewController:
-    * [ ] Create three IBOutlet properties: nameLabel, heightLabel, abilitiesLabel , and _powersLabel and wire them up to the appropriate labels in the storyboard.
-    * [ ] Add a property called hero that is a Hero optional.
-    * [ ] Take the name, height, abilities and powers from the hero property and set them to their appropriate label onscreen.
+    * [x] Create three IBOutlet properties: nameLabel, heightLabel, abilitiesLabel , and _powersLabel and wire them up to the appropriate labels in the storyboard.
+    * [x] Take the name, height, abilities and powers from the hero property and set them to their appropriate label onscreen.
 
 ### Hard Mode
 * [ ] Add a UIImageView to the detail view to display an avatar-style image of the hero. See the screenshot hardmode.png in today's folder for a guide on how to place it in the view.

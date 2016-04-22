@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Hero.h"
 
 @interface HeroDetailViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *homeWorldLabel;
-@property (weak, nonatomic) IBOutlet UILabel *powersLabel;
+@property (nonatomic) Hero *hero;
 
 @end
