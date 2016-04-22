@@ -26,9 +26,9 @@ After completing this assignment, you should…
     * [x] These labels should be connected to their appropriate properties in the HeroDetailViewController class.
 
 ###Code Tasks
-* [ ] Remove the ViewController.(h/m) files from the project
-* [ ] Add a new Table View Controller subclass called HeroTableViewController
-* [ ] Add a new View Controller subclass called HeroDetailViewController
+* [x] Remove the ViewController.(h/m) files from the project
+* [x] Add a new Table View Controller subclass called HeroTableViewController
+* [x] Add a new View Controller subclass called HeroDetailViewController
 * [ ] Add a new swift class called "Hero"
 * [ ] Add the heroes.json file to the project
 * In HeroTableViewController:
