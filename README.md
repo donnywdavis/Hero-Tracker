@@ -11,19 +11,19 @@ After completing this assignment, you should…
 * know how to read in JSON data from a file included in the app
 
 ### Storyboard Tasks
-* [ ] Remove the view in the storyboard from the template
-* [ ] Add a Table View Controller to the canvas
-* [ ] Embed the above in a Navigation Controller
-* [ ] Add a second View Controller, to be used as the table's detail view
-* [ ] The table view cell prototype should display two labels. One on the left of the cell and one on the right.
-    * [ ] The table view cell prototype should have a disclosure indicator
-    * [ ] The table view cell prototype should have its reuse identifier set (hint: this should match the identifier set in "cellForRowAtIndexPath")
-* [ ] The detail view should have a custom class name of "HeroDetailViewController". See the identity inspector in Interface Builder.
-* [ ] The detail view should have 3 labels:
-    * [ ] A label in the upper left corner that displays the hero's name
-    * [ ] A label 20 points below the cover name label that displays the hero's home world
-    * [ ] A label the standard distance (8 points) from the home world label that displays the hero's powers (be sure to set the label to 0 lines in the attributes inspector, as it will allow you to display more than 1 line)
-    * [ ] These labels should be connected to their appropriate properties in the HeroDetailViewController class.
+* [x] Remove the view in the storyboard from the template
+* [x] Add a Table View Controller to the canvas
+* [x] Embed the above in a Navigation Controller
+* [x] Add a second View Controller, to be used as the table's detail view
+* [x] The table view cell prototype should display two labels. One on the left of the cell and one on the right.
+    * [x] The table view cell prototype should have a disclosure indicator
+    * [x] The table view cell prototype should have its reuse identifier set (hint: this should match the identifier set in "cellForRowAtIndexPath")
+* [x] The detail view should have a custom class name of "HeroDetailViewController". See the identity inspector in Interface Builder.
+* [x] The detail view should have 3 labels:
+    * [x] A label in the upper left corner that displays the hero's name
+    * [x] A label 20 points below the cover name label that displays the hero's home world
+    * [x] A label the standard distance (8 points) from the home world label that displays the hero's powers (be sure to set the label to 0 lines in the attributes inspector, as it will allow you to display more than 1 line)
+    * [x] These labels should be connected to their appropriate properties in the HeroDetailViewController class.
 
 ###Code Tasks
 * [ ] Remove the ViewController.(h/m) files from the project
