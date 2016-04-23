@@ -22,6 +22,9 @@
         aHero.height = heroDictionary[@"height"];
         aHero.weight = heroDictionary[@"weight"];
         aHero.powers = heroDictionary[@"powers"];
+        aHero.abilities = heroDictionary[@"abilities"];
+        aHero.smallImage = heroDictionary[@"smallImage"];
+        aHero.largeImage = heroDictionary[@"largeImage"];
     }
     
     return aHero;

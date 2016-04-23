@@ -70,6 +70,9 @@
     Hero *hero = self.heroes[indexPath.row];
     
     // Populate the cell data
+    cell.imageView.layer.masksToBounds = YES;
+    cell.imageView.layer.cornerRadius = 20.0;
+    cell.imageView.image = [UIImage imageNamed:hero.smallImage];
     cell.textLabel.text = hero.name;
     
     return cell;

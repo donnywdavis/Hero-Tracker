@@ -17,6 +17,9 @@
 @property (nonatomic) NSString *height;
 @property (nonatomic) NSString *weight;
 @property (nonatomic) NSString *powers;
+@property (nonatomic) NSString *abilities;
+@property (nonatomic) NSString *smallImage;
+@property (nonatomic) NSString *largeImage;
 
 + (Hero *)heroWithDictionary:(NSDictionary *)heroDictionary;
 

@@ -46,8 +46,8 @@ After completing this assignment, you should…
     * [x] Take the name, height, abilities and powers from the hero property and set them to their appropriate label onscreen.
 
 ### Hard Mode
-* [ ] Add a UIImageView to the detail view to display an avatar-style image of the hero. See the screenshot hardmode.png in today's folder for a guide on how to place it in the view.
-* [ ] Find images for each hero on Google image search or similar, add the image files to the project, and then add a fourth key:value pair to the JSON for each hero with the filename of the associated image.
-    * [ ] Add a property to the Hero model class to store this filename (as a String)
-    * [ ] In the loadHeroes() function, pull this value from the dictionary each time through the loop and store it in your new model property
-    * [ ] In the same place in HeroDetailViewController where you set the three labels, add another instruction that uses the filename property from the model object to load the appropriate image into the UIImageView.
+* [x] Add a UIImageView to the detail view to display an avatar-style image of the hero. See the screenshot hardmode.png in today's folder for a guide on how to place it in the view.
+* [x] Find images for each hero on Google image search or similar, add the image files to the project, and then add a fourth key:value pair to the JSON for each hero with the filename of the associated image.
+    * [x] Add a property to the Hero model class to store this filename (as a String)
+    * [x] In the loadHeroes() function, pull this value from the dictionary each time through the loop and store it in your new model property
+    * [x] In the same place in HeroDetailViewController where you set the three labels, add another instruction that uses the filename property from the model object to load the appropriate image into the UIImageView.
