@@ -21,6 +21,13 @@
 
 @implementation HeroDetailViewController
 
+- (void)setHero:(Hero *)newHero {
+    if (_hero != newHero) {
+        _hero = newHero;
+        [self loadDetail];
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -34,9 +41,8 @@
 }
 
 - (void)loadDetail {
-    self.title = [NSString stringWithFormat:@"%@", self.hero.name];
-    
     if (self.hero) {
+        self.title = [NSString stringWithFormat:@"%@", self.hero.name];
         if (![self.hero.middleName isEqualToString:@""]) {
             self.nameLabel.text = [NSString stringWithFormat:@"%@ %@ %@", self.hero.firstName, self.hero.middleName, self.hero.lastName];
         } else {
@@ -46,21 +52,12 @@
         self.weightLabel.text = ![self.hero.weight isEqualToString:@""] ? [NSString stringWithFormat:@"%@", self.hero.weight] : @"Not on file";
         self.powersLabel.text = [NSString stringWithFormat:@"%@", self.hero.powers];
     } else {
-        self.nameLabel.text = @"";
-        self.heightLabel.text = @"";
-        self.weightLabel.text = @"";
-        self.powersLabel.text = @"";
+        self.title = @"Error";
+        self.nameLabel.text = @"No data found";
+        self.heightLabel.text = @"No data found";
+        self.weightLabel.text = @"No data found";
+        self.powersLabel.text = @"No data found";
     }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -12,7 +12,8 @@
 
 @interface HeroTableViewController ()
 
-@property NSMutableArray *heroes;
+@property (nonatomic) NSMutableArray *heroes;
+@property (nonatomic) Hero *selectedHero;
 
 - (void)loadHeroes;
 
@@ -70,16 +71,21 @@
     
     // Populate the cell data
     cell.textLabel.text = hero.name;
-//    cell.detailTextLabel.text = hero.homeWorld;
     
     return cell;
 }
 
 
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    HeroDetailViewController *heroDetailVC = [[HeroDetailViewController alloc] init];
-//    [heroDetailVC setHero:self.heroes[indexPath.row]];
-//}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Deselect our row first
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    // Get the selected hero
+    self.selectedHero = self.heroes[indexPath.row];
+    
+    // Perform segue
+    [self performSegueWithIdentifier:@"HeroDetail" sender:self];
+}
 
 
 #pragma mark - Navigation
@@ -87,10 +93,8 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"HeroDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-        Hero *hero = self.heroes[indexPath.row];
-        HeroDetailViewController *heroDetailVC = [segue destinationViewController];
-        heroDetailVC.hero = hero;
+        [(HeroDetailViewController *)segue.destinationViewController setHero:self.selectedHero];
+        [self setSelectedHero:nil];
     }
 }
 

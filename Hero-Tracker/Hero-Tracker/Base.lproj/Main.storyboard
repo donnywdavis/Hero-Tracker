@@ -30,9 +30,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="IYc-6F-5of" kind="show" identifier="HeroDetail" id="60a-o9-jZ1"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -41,6 +38,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="iFx-jV-EFJ"/>
+                    <connections>
+                        <segue destination="IYc-6F-5of" kind="show" identifier="HeroDetail" id="Iwb-tg-xbx"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hAL-mB-yZs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

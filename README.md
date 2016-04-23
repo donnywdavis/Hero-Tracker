@@ -40,7 +40,7 @@ After completing this assignment, you should…
     * [x] Create a for loop that iterates over each dictionary in the array and creates a hero object. Add each hero to the heroes array property
     * [x] Sort the heroes array in place to alphabetize the list by hero name
     * [x] Implement the three tableview datasource methods to get each hero in the heroes array to display in the table with the name in the cell's left label and their homeworld in the cell's right label.
-    * [ ] Implement the didSelectRowAtIndexPath tableview delegate method to transition to the detail view. Be sure to send the appropriate hero object to the detail view controller before you inititate the transition.
+    * [x] Implement the didSelectRowAtIndexPath tableview delegate method to transition to the detail view. Be sure to send the appropriate hero object to the detail view controller before you inititate the transition.
 * In HeroDetailViewController:
     * [x] Create three IBOutlet properties: nameLabel, heightLabel, abilitiesLabel , and _powersLabel and wire them up to the appropriate labels in the storyboard.
     * [x] Take the name, height, abilities and powers from the hero property and set them to their appropriate label onscreen.
