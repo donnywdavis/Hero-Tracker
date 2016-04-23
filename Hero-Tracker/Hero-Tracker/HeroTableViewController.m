@@ -74,6 +74,7 @@
     cell.imageView.layer.cornerRadius = 20.0;
     cell.imageView.image = [UIImage imageNamed:hero.smallImage];
     cell.textLabel.text = hero.name;
+    cell.detailTextLabel.text = hero.firstName;
     
     return cell;
 }
