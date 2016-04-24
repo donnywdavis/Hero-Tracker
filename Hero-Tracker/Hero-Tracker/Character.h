@@ -1,5 +1,5 @@
 //
-//  Hero.h
+//  Character.h
 //  Hero-Tracker
 //
 //  Created by Donny Davis on 4/22/16.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Hero : NSObject
+@interface Character : NSObject
 
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *firstName;
@@ -21,6 +21,6 @@
 @property (nonatomic) NSString *smallImage;
 @property (nonatomic) NSString *largeImage;
 
-+ (Hero *)heroWithDictionary:(NSDictionary *)heroDictionary;
++ (Character *)characterWithDictionary:(NSDictionary *)heroDictionary;
 
 @end

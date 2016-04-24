@@ -12,10 +12,12 @@
 		41A1EFA11CC9972800C0EE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A1EF9F1CC9972800C0EE6E /* Main.storyboard */; };
 		41A1EFA31CC9972800C0EE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A1EFA21CC9972800C0EE6E /* Assets.xcassets */; };
 		41A1EFA61CC9972800C0EE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A1EFA41CC9972800C0EE6E /* LaunchScreen.storyboard */; };
+		41D01F7A1CCCEAB6005541FF /* villains.json in Resources */ = {isa = PBXBuildFile; fileRef = 41D01F791CCCEAB6005541FF /* villains.json */; };
+		41D01F7D1CCCF7E3005541FF /* VillainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D01F7C1CCCF7E3005541FF /* VillainTableViewController.m */; };
 		41F8F1EE1CCA646700FBADFD /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F8F1ED1CCA646700FBADFD /* heroes.json */; };
-		41F8F1F11CCA662300FBADFD /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */; };
+		41F8F1F11CCA662300FBADFD /* CharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F01CCA662300FBADFD /* CharacterDetailViewController.m */; };
 		41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */; };
-		41F8F1F71CCA68D800FBADFD /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F61CCA68D800FBADFD /* Hero.m */; };
+		41F8F1F71CCA68D800FBADFD /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F61CCA68D800FBADFD /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +29,16 @@
 		41A1EFA21CC9972800C0EE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A1EFA51CC9972800C0EE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A1EFA71CC9972800C0EE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D01F791CCCEAB6005541FF /* villains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = villains.json; sourceTree = "<group>"; };
+		41D01F7B1CCCF7E3005541FF /* VillainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VillainTableViewController.h; sourceTree = "<group>"; };
+		41D01F7C1CCCF7E3005541FF /* VillainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VillainTableViewController.m; sourceTree = "<group>"; };
 		41F8F1ED1CCA646700FBADFD /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
-		41F8F1EF1CCA662300FBADFD /* HeroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
-		41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
+		41F8F1EF1CCA662300FBADFD /* CharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetailViewController.h; sourceTree = "<group>"; };
+		41F8F1F01CCA662300FBADFD /* CharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailViewController.m; sourceTree = "<group>"; };
 		41F8F1F21CCA684500FBADFD /* HeroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewController.h; sourceTree = "<group>"; };
 		41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewController.m; sourceTree = "<group>"; };
-		41F8F1F51CCA68D800FBADFD /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
-		41F8F1F61CCA68D800FBADFD /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		41F8F1F51CCA68D800FBADFD /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		41F8F1F61CCA68D800FBADFD /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,17 +73,20 @@
 			children = (
 				41A1EF991CC9972800C0EE6E /* AppDelegate.h */,
 				41A1EF9A1CC9972800C0EE6E /* AppDelegate.m */,
-				41F8F1F51CCA68D800FBADFD /* Hero.h */,
-				41F8F1F61CCA68D800FBADFD /* Hero.m */,
+				41F8F1F51CCA68D800FBADFD /* Character.h */,
+				41F8F1F61CCA68D800FBADFD /* Character.m */,
 				41F8F1F21CCA684500FBADFD /* HeroTableViewController.h */,
 				41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */,
-				41F8F1EF1CCA662300FBADFD /* HeroDetailViewController.h */,
-				41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */,
+				41D01F7B1CCCF7E3005541FF /* VillainTableViewController.h */,
+				41D01F7C1CCCF7E3005541FF /* VillainTableViewController.m */,
+				41F8F1EF1CCA662300FBADFD /* CharacterDetailViewController.h */,
+				41F8F1F01CCA662300FBADFD /* CharacterDetailViewController.m */,
 				41A1EF9F1CC9972800C0EE6E /* Main.storyboard */,
 				41A1EFA21CC9972800C0EE6E /* Assets.xcassets */,
 				41A1EFA41CC9972800C0EE6E /* LaunchScreen.storyboard */,
 				41A1EFA71CC9972800C0EE6E /* Info.plist */,
 				41F8F1ED1CCA646700FBADFD /* heroes.json */,
+				41D01F791CCCEAB6005541FF /* villains.json */,
 				41A1EF961CC9972800C0EE6E /* Supporting Files */,
 			);
 			path = "Hero-Tracker";
@@ -151,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A1EFA61CC9972800C0EE6E /* LaunchScreen.storyboard in Resources */,
+				41D01F7A1CCCEAB6005541FF /* villains.json in Resources */,
 				41F8F1EE1CCA646700FBADFD /* heroes.json in Resources */,
 				41A1EFA31CC9972800C0EE6E /* Assets.xcassets in Resources */,
 				41A1EFA11CC9972800C0EE6E /* Main.storyboard in Resources */,
@@ -164,8 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F8F1F71CCA68D800FBADFD /* Hero.m in Sources */,
-				41F8F1F11CCA662300FBADFD /* HeroDetailViewController.m in Sources */,
+				41F8F1F71CCA68D800FBADFD /* Character.m in Sources */,
+				41D01F7D1CCCF7E3005541FF /* VillainTableViewController.m in Sources */,
+				41F8F1F11CCA662300FBADFD /* CharacterDetailViewController.m in Sources */,
 				41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */,
 				41A1EF9B1CC9972800C0EE6E /* AppDelegate.m in Sources */,
 				41A1EF981CC9972800C0EE6E /* main.m in Sources */,
