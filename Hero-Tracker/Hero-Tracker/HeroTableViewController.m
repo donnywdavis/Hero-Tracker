@@ -24,7 +24,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.title = @"S.H.I.E.L.D. Hero Tracker";
     self.heroes = [[NSMutableArray alloc] init];
     [self loadHeroes];
 }
@@ -35,7 +34,7 @@
 }
 
 - (void)loadHeroes {
-    // This creates a string with the filepath to the NOC List JSON file.
+    // This creates a string with the filepath to the JSON file.
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"heroes" ofType:@"json"];
     // This is a built in method that allows us to load a JSON file into native Cocoa objects (NSDictionaries and NSArrays).
     NSArray *heroes = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:filePath] options:NSJSONReadingAllowFragments error:nil];

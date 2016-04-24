@@ -24,7 +24,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.title = @"S.H.I.E.L.D. Villain Tracker";
     self.villains = [[NSMutableArray alloc] init];
     [self loadVillains];
 }
@@ -35,12 +34,12 @@
 }
 
 - (void)loadVillains {
-    // This creates a string with the filepath to the NOC List JSON file.
+    // This creates a string with the filepath to the JSON file.
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"villains" ofType:@"json"];
     // This is a built in method that allows us to load a JSON file into native Cocoa objects (NSDictionaries and NSArrays).
     NSArray *villains = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:filePath] options:NSJSONReadingAllowFragments error:nil];
     
-    // Build our Hero objects and store in our array
+    // Build our Villain objects and store in our array
     for (NSDictionary *villain in villains) {
         [self.villains addObject:[Character characterWithDictionary:villain]];
     }
@@ -83,7 +82,7 @@
     // Deselect our row first
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    // Get the selected hero
+    // Get the selected villain
     self.selectedVillain = self.villains[indexPath.row];
     
     // Perform segue
