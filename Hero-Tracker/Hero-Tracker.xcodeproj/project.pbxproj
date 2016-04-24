@@ -16,7 +16,7 @@
 		41F8F1EE1CCA646700FBADFD /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F8F1ED1CCA646700FBADFD /* heroes.json */; };
 		41F8F1F11CCA662300FBADFD /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */; };
 		41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */; };
-		41F8F1F71CCA68D800FBADFD /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F61CCA68D800FBADFD /* Hero.m */; };
+		41F8F1F71CCA68D800FBADFD /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F61CCA68D800FBADFD /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
 		41F8F1F21CCA684500FBADFD /* HeroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewController.h; sourceTree = "<group>"; };
 		41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewController.m; sourceTree = "<group>"; };
-		41F8F1F51CCA68D800FBADFD /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
-		41F8F1F61CCA68D800FBADFD /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		41F8F1F51CCA68D800FBADFD /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		41F8F1F61CCA68D800FBADFD /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 			children = (
 				41A1EF991CC9972800C0EE6E /* AppDelegate.h */,
 				41A1EF9A1CC9972800C0EE6E /* AppDelegate.m */,
-				41F8F1F51CCA68D800FBADFD /* Hero.h */,
-				41F8F1F61CCA68D800FBADFD /* Hero.m */,
+				41F8F1F51CCA68D800FBADFD /* Character.h */,
+				41F8F1F61CCA68D800FBADFD /* Character.m */,
 				41F8F1F21CCA684500FBADFD /* HeroTableViewController.h */,
 				41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */,
 				41F8F1EF1CCA662300FBADFD /* HeroDetailViewController.h */,
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F8F1F71CCA68D800FBADFD /* Hero.m in Sources */,
+				41F8F1F71CCA68D800FBADFD /* Character.m in Sources */,
 				41F8F1F11CCA662300FBADFD /* HeroDetailViewController.m in Sources */,
 				41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */,
 				41A1EF9B1CC9972800C0EE6E /* AppDelegate.m in Sources */,
