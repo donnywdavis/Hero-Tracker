@@ -14,7 +14,7 @@
 		41A1EFA61CC9972800C0EE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A1EFA41CC9972800C0EE6E /* LaunchScreen.storyboard */; };
 		41D01F7A1CCCEAB6005541FF /* villains.json in Resources */ = {isa = PBXBuildFile; fileRef = 41D01F791CCCEAB6005541FF /* villains.json */; };
 		41F8F1EE1CCA646700FBADFD /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F8F1ED1CCA646700FBADFD /* heroes.json */; };
-		41F8F1F11CCA662300FBADFD /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */; };
+		41F8F1F11CCA662300FBADFD /* CharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F01CCA662300FBADFD /* CharacterDetailViewController.m */; };
 		41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */; };
 		41F8F1F71CCA68D800FBADFD /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F61CCA68D800FBADFD /* Character.m */; };
 /* End PBXBuildFile section */
@@ -30,8 +30,8 @@
 		41A1EFA71CC9972800C0EE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D01F791CCCEAB6005541FF /* villains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = villains.json; sourceTree = "<group>"; };
 		41F8F1ED1CCA646700FBADFD /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
-		41F8F1EF1CCA662300FBADFD /* HeroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
-		41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
+		41F8F1EF1CCA662300FBADFD /* CharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetailViewController.h; sourceTree = "<group>"; };
+		41F8F1F01CCA662300FBADFD /* CharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailViewController.m; sourceTree = "<group>"; };
 		41F8F1F21CCA684500FBADFD /* HeroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewController.h; sourceTree = "<group>"; };
 		41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewController.m; sourceTree = "<group>"; };
 		41F8F1F51CCA68D800FBADFD /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 				41F8F1F61CCA68D800FBADFD /* Character.m */,
 				41F8F1F21CCA684500FBADFD /* HeroTableViewController.h */,
 				41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */,
-				41F8F1EF1CCA662300FBADFD /* HeroDetailViewController.h */,
-				41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */,
+				41F8F1EF1CCA662300FBADFD /* CharacterDetailViewController.h */,
+				41F8F1F01CCA662300FBADFD /* CharacterDetailViewController.m */,
 				41A1EF9F1CC9972800C0EE6E /* Main.storyboard */,
 				41A1EFA21CC9972800C0EE6E /* Assets.xcassets */,
 				41A1EFA41CC9972800C0EE6E /* LaunchScreen.storyboard */,
@@ -169,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F8F1F71CCA68D800FBADFD /* Character.m in Sources */,
-				41F8F1F11CCA662300FBADFD /* HeroDetailViewController.m in Sources */,
+				41F8F1F11CCA662300FBADFD /* CharacterDetailViewController.m in Sources */,
 				41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */,
 				41A1EF9B1CC9972800C0EE6E /* AppDelegate.m in Sources */,
 				41A1EF981CC9972800C0EE6E /* main.m in Sources */,

@@ -7,13 +7,13 @@
 //
 
 #import "HeroTableViewController.h"
-#import "HeroDetailViewController.h"
-#import "Hero.h"
+#import "CharacterDetailViewController.h"
+#import "Character.h"
 
 @interface HeroTableViewController ()
 
 @property (nonatomic) NSMutableArray *heroes;
-@property (nonatomic) Hero *selectedHero;
+@property (nonatomic) Character *selectedHero;
 
 - (void)loadHeroes;
 
@@ -42,7 +42,7 @@
     
     // Build our Hero objects and store in our array
     for (NSDictionary *hero in heroes) {
-        [self.heroes addObject:[Hero heroWithDictionary:hero]];
+        [self.heroes addObject:[Character characterWithDictionary:hero]];
     }
     
     // Sort the array by name
@@ -67,7 +67,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HeroCell" forIndexPath:indexPath];
     
     // Grab a hero to display
-    Hero *hero = self.heroes[indexPath.row];
+    Character *hero = self.heroes[indexPath.row];
     
     // Populate the cell data
     cell.imageView.layer.masksToBounds = YES;
@@ -88,7 +88,7 @@
     self.selectedHero = self.heroes[indexPath.row];
     
     // Perform segue
-    [self performSegueWithIdentifier:@"HeroDetail" sender:self];
+    [self performSegueWithIdentifier:@"CharacterDetail" sender:self];
 }
 
 
@@ -96,8 +96,8 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"HeroDetail"]) {
-        [(HeroDetailViewController *)segue.destinationViewController setHero:self.selectedHero];
+    if ([segue.identifier isEqualToString:@"CharacterDetail"]) {
+        [(CharacterDetailViewController *)segue.destinationViewController setCharacter:self.selectedHero];
         [self setSelectedHero:nil];
     }
 }
