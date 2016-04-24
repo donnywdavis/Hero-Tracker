@@ -53,7 +53,7 @@
         }
         self.heightLabel.text = ![self.character.height isEqualToString:@""] ? self.character.height : @"Not on file";
         self.weightLabel.text = ![self.character.weight isEqualToString:@""] ? self.character.weight : @"Not on file";
-        self.powersLabel.text = self.character.powers;
+        self.powersLabel.text = ![self.character.powers isEqualToString:@""] ? self.character.powers : @"Not on file";
         self.abilitiesLabel.text = ![self.character.abilities isEqualToString:@""] ? self.character.abilities : @"Not on file";
     } else {
         self.title = @"Error";
