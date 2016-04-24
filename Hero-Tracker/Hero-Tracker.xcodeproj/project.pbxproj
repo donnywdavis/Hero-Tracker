@@ -12,6 +12,7 @@
 		41A1EFA11CC9972800C0EE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A1EF9F1CC9972800C0EE6E /* Main.storyboard */; };
 		41A1EFA31CC9972800C0EE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A1EFA21CC9972800C0EE6E /* Assets.xcassets */; };
 		41A1EFA61CC9972800C0EE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A1EFA41CC9972800C0EE6E /* LaunchScreen.storyboard */; };
+		41D01F7A1CCCEAB6005541FF /* villains.json in Resources */ = {isa = PBXBuildFile; fileRef = 41D01F791CCCEAB6005541FF /* villains.json */; };
 		41F8F1EE1CCA646700FBADFD /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F8F1ED1CCA646700FBADFD /* heroes.json */; };
 		41F8F1F11CCA662300FBADFD /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */; };
 		41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */; };
@@ -27,6 +28,7 @@
 		41A1EFA21CC9972800C0EE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A1EFA51CC9972800C0EE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A1EFA71CC9972800C0EE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D01F791CCCEAB6005541FF /* villains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = villains.json; sourceTree = "<group>"; };
 		41F8F1ED1CCA646700FBADFD /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
 		41F8F1EF1CCA662300FBADFD /* HeroDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
 		41F8F1F01CCA662300FBADFD /* HeroDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				41A1EFA41CC9972800C0EE6E /* LaunchScreen.storyboard */,
 				41A1EFA71CC9972800C0EE6E /* Info.plist */,
 				41F8F1ED1CCA646700FBADFD /* heroes.json */,
+				41D01F791CCCEAB6005541FF /* villains.json */,
 				41A1EF961CC9972800C0EE6E /* Supporting Files */,
 			);
 			path = "Hero-Tracker";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A1EFA61CC9972800C0EE6E /* LaunchScreen.storyboard in Resources */,
+				41D01F7A1CCCEAB6005541FF /* villains.json in Resources */,
 				41F8F1EE1CCA646700FBADFD /* heroes.json in Resources */,
 				41A1EFA31CC9972800C0EE6E /* Assets.xcassets in Resources */,
 				41A1EFA11CC9972800C0EE6E /* Main.storyboard in Resources */,

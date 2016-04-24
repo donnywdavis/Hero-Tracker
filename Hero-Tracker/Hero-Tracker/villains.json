@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Ultron",
+        "firstName": "Ultron",
+        "middleName": "",
+        "lastName": "",
+        "height": "6'9\" (variable)",
+        "weight": "735 lbs. (variable)",
+        "powers": "Ultron's abilities vary with each redesign, but typically include superhuman strength and durability, the power of flight, and various offensive weapons such as concussion blasters, radiation emitters and his \"encephalo-ray\", which plunges its victims into a deathlike coma. The latter ray also allows Ultron to mesmerize and outright mind-control his victims, or implant subliminal hypnotic commands within their minds to be enacted at a later time. Ultron's outer shell is usually composed of Adamantium, rendering it almost totally impervious to damage; however, his internal mechanisms are generally less durable and more easily damaged. Ultron's Adamantium forms have proven vulnerable to molecular rearrangement devices and the metal-destabilizing ore known as Savage Land Glossary:V#Vibranium, Vibranium (\"anti-metal\"). Some Ultron models feature tractor beams and energy absorption capabilities. Most Ultrons are powered by a small internal nuclear furnace, and incorporate a \"program transmitter\" which can beam part or all of Ultron's programming into remote locations such as computers or alternate robotic bodies. Ultron can often control other machines remotely even if he has not transplanted his consciousness into them. One recent Ultron model developed hive-mind technology, allowing him to animate and control hundreds of alternate Ultron bodies at the same time, becoming a robotic one-man army. Ultron is one of the foremost robotics experts on Earth.",
+        "abilities": "",
+        "smallImage": "ultron",
+        "largeImage": "ultron-large"
+    },
+    {
+        "name": "Loki",
+        "firstName": "Loki",
+        "middleName": "",
+        "lastName": "Laufeyson",
+        "height": "6'4\"",
+        "weight": "525 lbs.",
+        "powers": "Loki possesses physical abilities far superior to humans, an increased lifespan, superhuman strength (able to lift up to 50 tons), immune to terrestrial diseases, and resistant to conventional injury.Loki is perhaps the most powerful sorcerer in all of Asgard. His many magical abilities included shape-shifting (able to gain the basic natural abilities inherent in each form), astral projection, molecular rearrangement, eldritch energy blasts, illusion casting, flight (via levitation), telepathy, hypnosis, and teleportation.Loki is immune to most physical injury, and can reattach severed body parts, including his own head. Loki can mystically imbue objects or beings with specific but temporary powers, and enhance the powers of superhumans. Loki can also magically create rifts between dimensions, allowing him or other objects passage from one universe to another. Most often this rift is between Asgard and Earth.",
+        "abilities": "",
+        "smallImage": "loki",
+        "largeImage": "loki-large"
+    },
+    {
+        "name": "Red Skull",
+        "firstName": "Johann",
+        "middleName": "",
+        "lastName": "Schmidt",
+        "height": "(original body) 6'1\"; (cloned body) 6'2\"",
+        "weight": "(original body) 195 lbs.; (cloned body) 240 lbs.",
+        "powers": "None",
+        "abilities": "The Red Skull is a fine unarmed combatant, marksman and master of disguise. He possesses a keen mind at military, political, corporate and subversive strategies.",
+        "smallImage": "red-skull",
+        "largeImage": "red-skull-large"
+    },
+    {
+        "name": "Mystique",
+        "firstName": "Mystique",
+        "middleName": "",
+        "lastName": "",
+        "height": "5'10\" (variable)",
+        "weight": "120 lbs.",
+        "powers": "Mystique can psionically shift the atoms of her body to duplicate any humanoid of either sex, wearing any kind of clothing. She can precisely duplicate another person’s retina pattern, finger, palm and skin-pore patterns, and vocal cords. She can increase her volume, but not her mass. Mystique’s power grants her age retardation, increased healing, and immunity to drugs and poisons.",
+        "abilities": "Mystique is a highly skilled combatant, actress, marksman, and strategist in terrorist and commando operations.",
+        "smallImage": "mystique",
+        "largeImage": "mystique-large"
+    },
+    {
+        "name": "Thanos",
+        "firstName": "Thanos",
+        "middleName": "",
+        "lastName": "",
+        "height": "6'7\"",
+        "weight": "985 lbs.",
+        "powers": "Thanos possesses the superhuman physiology of all Eternals, granting him superhuman strength, endurance, reflexes, and agility. His skin in nearly invulnerable, particulary against heat, cold, electricity, radiation, toxins, aging, and disease, and he can survive indefinitely without food or water even before his \"curse\" from Death left him immortal, unable to die. His mind is also invulnerable to most forms of psychic attack, and can project a psionic blast of energy as well as blasts of plasma/cosmic energy from his eyes and hands.",
+        "abilities": "Master strategist, adept in sciences far beyond Earth technology, some mystical knowledge",
+        "smallImage": "thanos",
+        "largeImage": "thanos-large"
+    },
+    {
+        "name": "Ronan",
+        "firstName": "Ronan",
+        "middleName": "",
+        "lastName": "",
+        "height": "7'5\" (with armor)",
+        "weight": "480 lbs. (with armor)",
+        "powers": "Can currently adapt his body to survive any hostile environment. Strength-enhancing armor. Generate cold to put certain lifeforms into suspended animation. Render himself 'invisible'.",
+        "abilities": "",
+        "smallImage": "ronan",
+        "largeImage": "ronan-large"
+    },
+    {
+        "name": "Magneto",
+        "firstName": "Max",
+        "middleName": "",
+        "lastName": "Eisenhardt",
+        "height": "6’ 2\”",
+        "weight": "190 lbs.",
+        "powers": "Magneto possesses the power to control all forms of magnetism. He can shape and manipulate magnetic fields that exist naturally or artificially. It is unclear, however, whether he must draw magnetic force from outside himself (if so, then he can do so over vast distances), or whether he can also generate magnetic force from within himself. Nor is it clear whether Magneto's power is psionic or purely physiological in nature. Magneto's power is, for all practical purposes, limitless. Moreover, he can use his magnetic powers in more than one way simultaneously. He can completely assemble a complicated machine within seconds through his powers. He can erect magnetic force fields with a high degree of impenetrability around himself for protection. Although Magneto’s primary power is control over magnetism, he can also project or manipulate any form of energy that is part of the electromagnetic spectrum, including visible light, radio waves, ultraviolet light, gamma rays, and x-rays. However, Magneto almost always uses only magnetism, since it’s more difficult for him to manipulate other forms of energy. Magneto has also exhibited powers of astral projection and telepathy, and has claimed to be able to control the minds of others, though his abilities along these lines appear to be minimal. Magneto’s ability to wield his superhuman powers effectively is dependent upon his physical condition. When severely injured, his body is unable to withstand the strain of manipulating great amounts of magnetic forces.",
+        "abilities": "Magneto has mastered many technological fields and is a scientific genius. He is an expert on genetic engineering and manipulation, with knowledge far beyond that of contemporary science. He can mutate humans in order to give them superhuman powers, or create adult clones of human beings and then manipulate the genetic structures of these clones during their development. He has also learned how to create artificial living beings. His discoveries in particle physics would revolutionize the field and place him among the giants of scientific history if they were to be revealed. Magneto is an excellent strategist, both in actual battles and games of chess.",
+        "smallImage": "magneto",
+        "largeImage": "magneto-large"
+    },
+    {
+        "name": "Dr. Doom",
+        "firstName": "Victor",
+        "middleName": "von",
+        "lastName": "Doom",
+        "height": "6'2\" (in armor) 6'7\"",
+        "weight": "225 lbs. (in armor) 415 lbs.",
+        "powers": "Doom can exchange minds with others. He possesses some mystical abilities, such as casting bolts of eldritch energy and invoking mystical entities (principalities) for additional support. While empowered by the Haazareth, his mystical powers were on a par with those of Dr. Strange.",
+        "abilities": "Doom is a genius in physics, robotics, cybernetics, genetics, weapons technology, bio-chemistry, and time travel. He is also self-taught in the mystic arts. Doom is a natural leader, a brilliant strategist, and a sly deceiver.",
+        "smallImage": "dr-doom",
+        "largeImage": "dr-doom-large"
+    },
+    {
+        "name": "Green Goblin",
+        "firstName": "Norman",
+        "middleName": "",
+        "lastName": "Osborne",
+        "height": "",
+        "weight": "",
+        "powers": "",
+        "abilities": "",
+        "smallImage": "green-goblin",
+        "largeImage": "green-goblin-large"
+    },
+    {
+        "name": "Black Cat",
+        "firstName": "Felicia",
+        "middleName": "",
+        "lastName": "Hardy",
+        "height": "5'10\"",
+        "weight": "120 lbs.",
+        "powers": "Though it has been suggested that she had a latent Glossary:M#mutant, mutant ability to affect probability fields around her (\"jinxing\"), the Black Cat's original \"bad luck\" powers were nothing more than meticulously planned stunts, executed with the aid of her exceptional gymnastics and unarmed combat skills. Later seeking power to enable her to be a true partner to her lover, Spider-Man, she made a secret deal with the Kingpin, whose scientists imbued her with a genuine \"bad luck\" power. This power enabled her subliminally and Glossary:P#psionic, psionically to affect probability fields, causing improbable, but not impossible, \"unlucky\" events to occur to enemies within her line of sight.After Doctor Strange (Stephen Strange), Dr. Strange removed the jinx Spider-Man contracted, the Cat's powers Glossary:M#mutate, mutated, leaving her absent the bad luck ability, but with infrared vision, Glossary:S#superhuman, superhuman balance and agility, and long extensible claws.After exposure to the Chameleon, Chameleon's device from the Tinkerer, used to remove Spider-Man's powers, Felicia lost all her superhuman abilities as well. She has since relied upon the Tinkerer's high-tech inventions to support her feline antics. Black Cat's costume also contains micro-servos, which enhances her strength such that she is able to lift 800 lbs optimally. The Tinkerer has also provided her with metal mesh wired gloves with sensors to trigger extension of claws, agility-boosting implants and interaural balance compensators.",
+        "abilities": "An experienced gymnast and acrobat, can swing from rooftop to rooftop with help from a grappling hook, also an experienced hand-to-hand combatant",
+        "smallImage": "black-cat",
+        "largeImage": "black-cat-large"
+    },
+    
+]
