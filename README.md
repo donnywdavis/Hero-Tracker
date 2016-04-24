@@ -51,3 +51,13 @@ After completing this assignment, you should…
     * [x] Add a property to the Hero model class to store this filename (as a String)
     * [x] In the loadHeroes() function, pull this value from the dictionary each time through the loop and store it in your new model property
     * [x] In the same place in HeroDetailViewController where you set the three labels, add another instruction that uses the filename property from the model object to load the appropriate image into the UIImageView.
+
+### Extra Goodness
+* [x] Create a new JSON file to hold a list of villains and their details.
+* [x] Add a new table view controller to display the list of villains.
+	* [x] Embed this table view controller in a navigation controller.
+* [x] Add a segue between the table view and the existing detail view.
+* [x] Add a tab bar to the storyboard.
+	* [x] Make the tab bar the entry point for the application.
+	* [x] Point the first tab to the navigation controller for the heroes table view controller.
+	* [x] Point the second tab to the navigation controller for the villains table view controller.
