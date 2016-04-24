@@ -45,7 +45,7 @@
 - (void)loadDetail {
     if (self.character) {
         self.title = self.character.name;
-        self.profileImage.image = [UIImage imageNamed:self.character.largeImage];
+        self.profileImage.image = ![self.character.largeImage isEqualToString:@""] ? [UIImage imageNamed:self.character.largeImage] : [UIImage imageNamed:@"no-image"];
         if (![self.character.middleName isEqualToString:@""]) {
             self.nameLabel.text = [NSString stringWithFormat:@"%@ %@ %@", self.character.firstName, self.character.middleName, self.character.lastName];
         } else {
