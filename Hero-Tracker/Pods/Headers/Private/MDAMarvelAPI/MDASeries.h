@@ -1,0 +1,1 @@
+../../../MDAMarvelAPI/MDAMarvelAPI/MDASeries.h
