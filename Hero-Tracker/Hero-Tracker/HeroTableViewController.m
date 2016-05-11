@@ -33,6 +33,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tableView.tableFooterView = [[UITableView alloc] init];
+}
+
 - (void)loadHeroes {
     // This creates a string with the filepath to the JSON file.
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"heroes" ofType:@"json"];
