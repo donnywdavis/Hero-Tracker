@@ -18,7 +18,6 @@
 		41F8F1F11CCA662300FBADFD /* CharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F01CCA662300FBADFD /* CharacterDetailViewController.m */; };
 		41F8F1F41CCA684500FBADFD /* HeroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */; };
 		41F8F1F71CCA68D800FBADFD /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F8F1F61CCA68D800FBADFD /* Character.m */; };
-		ADE3E6158B98AA0CC70A106C /* libPods-Hero-Tracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8445E594D62CF9DA136A85 /* libPods-Hero-Tracker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +39,6 @@
 		41F8F1F31CCA684500FBADFD /* HeroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewController.m; sourceTree = "<group>"; };
 		41F8F1F51CCA68D800FBADFD /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
 		41F8F1F61CCA68D800FBADFD /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
-		9A8445E594D62CF9DA136A85 /* libPods-Hero-Tracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hero-Tracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCB0CA7C0E3FBF308D91C710 /* Pods-Hero-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hero-Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hero-Tracker/Pods-Hero-Tracker.release.xcconfig"; sourceTree = "<group>"; };
-		F982C6C2EAAB83AE817A766B /* Pods-Hero-Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hero-Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hero-Tracker/Pods-Hero-Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE3E6158B98AA0CC70A106C /* libPods-Hero-Tracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +57,6 @@
 			children = (
 				41A1EF951CC9972800C0EE6E /* Hero-Tracker */,
 				41A1EF941CC9972800C0EE6E /* Products */,
-				59FB5C0511025695456E94B7 /* Pods */,
-				934AC8DEF52BBB8F01D05267 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,23 +100,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		59FB5C0511025695456E94B7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F982C6C2EAAB83AE817A766B /* Pods-Hero-Tracker.debug.xcconfig */,
-				DCB0CA7C0E3FBF308D91C710 /* Pods-Hero-Tracker.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		934AC8DEF52BBB8F01D05267 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9A8445E594D62CF9DA136A85 /* libPods-Hero-Tracker.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,12 +107,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41A1EFAA1CC9972800C0EE6E /* Build configuration list for PBXNativeTarget "Hero-Tracker" */;
 			buildPhases = (
-				53CFD4294F07EF11860E0B79 /* 📦 Check Pods Manifest.lock */,
 				41A1EF8F1CC9972800C0EE6E /* Sources */,
 				41A1EF901CC9972800C0EE6E /* Frameworks */,
 				41A1EF911CC9972800C0EE6E /* Resources */,
-				509DA21EE39C4CB5D8B4933F /* 📦 Embed Pods Frameworks */,
-				1310790B2FD824FDB23FD036 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,54 +167,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1310790B2FD824FDB23FD036 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hero-Tracker/Pods-Hero-Tracker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		509DA21EE39C4CB5D8B4933F /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hero-Tracker/Pods-Hero-Tracker-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		53CFD4294F07EF11860E0B79 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41A1EF8F1CC9972800C0EE6E /* Sources */ = {
@@ -365,7 +290,6 @@
 		};
 		41A1EFAB1CC9972800C0EE6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F982C6C2EAAB83AE817A766B /* Pods-Hero-Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hero-Tracker/Info.plist";
@@ -378,7 +302,6 @@
 		};
 		41A1EFAC1CC9972800C0EE6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCB0CA7C0E3FBF308D91C710 /* Pods-Hero-Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hero-Tracker/Info.plist";
